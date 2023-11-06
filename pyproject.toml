@@ -9,6 +9,7 @@ packages = [{include = "surf"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 boto3 = "^1.28.78"
+logzero = "^1.7.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.10.1"
