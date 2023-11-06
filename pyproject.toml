@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "surf aws with boto"
 authors = ["Sam Holden <sam.holden@capgemini.com>"]
 readme = "README.md"
+packages = [{include = "surf"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
